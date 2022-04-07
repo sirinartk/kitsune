@@ -6467,12 +6467,11 @@ typedarray@^0.0.6, typedarray@~0.0.5:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-uglify-js@2.6.0:
-  version "2.6.0"
-  resolved "http://registry.npmjs.org/uglify-js/-/uglify-js-2.6.0.tgz#25eaa1cc3550e39410ceefafd1cfbb6b6d15f001"
-  integrity sha1-JeqhzDVQ45QQzu+v0c+7a20V8AE=
+uglify-js@2.8.6:
+  version "2.8.6"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-2.8.6.tgz#1eda564ce4fe4ddb82db834f78525fdeb76b4b99"
+  integrity sha1-HtpWTOT+TduC24NPeFJf3rdrS5k=
   dependencies:
-    async "~0.2.6"
     source-map "~0.5.1"
     uglify-to-browserify "~1.0.0"
     yargs "~3.10.0"

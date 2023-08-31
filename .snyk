@@ -1,0 +1,25 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - debowerify > bower > request > hawk:
+        patched: '2023-08-31T15:15:32.079Z'
+        id: 'npm:hawk:20160119'
+        path: debowerify > bower > request > hawk
+  'npm:http-signature:20150122':
+    - debowerify > bower > request > http-signature:
+        patched: '2023-08-31T15:15:32.079Z'
+        id: 'npm:http-signature:20150122'
+        path: debowerify > bower > request > http-signature
+  'npm:mime:20170907':
+    - debowerify > bower > request > form-data > mime:
+        patched: '2023-08-31T15:15:32.079Z'
+        id: 'npm:mime:20170907'
+        path: debowerify > bower > request > form-data > mime
+  'npm:uglify-js:20151024':
+    - debowerify > bower > handlebars > uglify-js:
+        patched: '2023-08-31T15:15:32.079Z'
+        id: 'npm:uglify-js:20151024'
+        path: debowerify > bower > handlebars > uglify-js
